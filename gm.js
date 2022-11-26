@@ -114,7 +114,6 @@ function loop() {
   snake.way.unshift({ x: snake.x, y: snake.y });
   if (snake.way.length > snake.llen)  snake.way.pop();  
 
- 
 }
 
 document.addEventListener('keydown', function (e) {
